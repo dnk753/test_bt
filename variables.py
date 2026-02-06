@@ -4,3 +4,5 @@ helo = '''Доступные команды:
 '''
 
 https_release = """ https://testtt"""
+
+img = '333.jpeg'
