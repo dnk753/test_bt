@@ -3,10 +3,11 @@ import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters.command import Command
 from aiogram.types import Message, FSInputFile, URLInputFile, BufferedInputFile
-from aiogram import F  # новый импорт!
-from aiogram.utils.keyboard import ReplyKeyboardBuilder  # новый импорт!
+from aiogram import F 
+from aiogram.utils.keyboard import ReplyKeyboardBuilder  
 from variables import *
 import os
+from aiohttp import web
 
 TOKEN = '7884118333:AAHeAFG6m16Fedht9HPxd6vMcb8urj_8qBc' #os.getenv('BOT_TOKEN')
 
